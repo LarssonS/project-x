@@ -1,0 +1,19 @@
+.navbar {
+    background: darkslategray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    & div a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: snow;
+    }
+    & div a:hover {
+        text-decoration: underline;
+    }
+}
+
+.navbar-flex {
+    display: flex;
+    justify-content: space-between;
+}

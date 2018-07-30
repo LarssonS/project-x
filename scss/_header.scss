@@ -1,0 +1,9 @@
+.hero-image {
+    background-image: url("http://via.placeholder.com/1600x400");
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
