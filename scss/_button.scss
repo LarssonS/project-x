@@ -1,16 +1,16 @@
-.cta-btn {
+.btn {
 	padding: 8px 15px;
-	color: lightcyan;
-	background-color: darkmagenta;
-	border: 1px solid #8d8d8d;
+	color: #ffffff;
+	border-radius: 15px;
 	text-decoration: none;
-	display: inline-block;
 	margin: 10px 0;
 	transition: all 0.2s ease-in-out;
-	text-align: center;
 	
 	&:hover {
 		background-color: #212121;
-		color: snow;
 	}
+}
+
+.btn-cta {
+	border: 2px solid #ffffff;
 }
