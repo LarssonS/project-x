@@ -5,9 +5,63 @@
 body {
   margin: 0; }
 
+h1 {
+  font-size: 32px;
+  margin: 0; }
+
 .container {
   max-width: 960px;
-  margin: auto; }
+  margin: 0 auto; }
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.flexbox-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.flexbox-align-content {
+  -ms-flex-line-pack: justify;
+  align-content: space-between; }
+
+.flexbox-space-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.column-half {
+  width: 100%; }
+
+.spacing {
+  padding-top: 135px; }
+
+.padding {
+  padding: 0 20px; }
+
+.margin-0 {
+  margin: 0; }
+
+.padding-left {
+  padding-left: 25px; }
+
+.sales-video {
+  width: 100%;
+  height: 300px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.sales-icon-spacing {
+  height: 150px;
+  padding: 15px 5px; }
+
+.sales-icon {
+  width: 120px;
+  height: 120px;
+  background: lightcoral; }
 
 .hero-image {
   background-image: url("http://via.placeholder.com/1600x400");
