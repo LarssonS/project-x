@@ -11,12 +11,12 @@
     align-items: center;
 }
 
-.flexbox-align-content {
-    align-content: space-between
-}
-
 .flexbox-space-between {
     justify-content: space-between;
+}
+
+.flex-flow {
+    flex-flow: column wrap;
 }
 
 .column-half {
@@ -24,7 +24,7 @@
 }
 
 .spacing {
-    padding-top: $default-spacing * 3;
+    padding-top: $default-spacing * 3.5;
 }
 
 .padding {
@@ -37,6 +37,10 @@
 
 .padding-left {
     padding-left: 25px;
+}
+
+.padding-top {
+    padding-top: 3em;
 }
 
 .sales-video {
@@ -54,4 +58,23 @@
     width: 120px;
     height: 120px;
     background: lightcoral;
+}
+
+.image-1 {
+    background-image: url("../images/road.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 250px;
+    z-index: 1;
+    margin-right: -60px;
+}
+
+.image-2 {
+    background-image: url("../images/road2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 350px;
+    margin-top: -60px;
 }
