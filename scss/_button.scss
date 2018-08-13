@@ -1,10 +1,13 @@
 .btn {
-	padding: 13px 48px;
+	padding: 15px 40px;
 	color: #ffffff;
-	border-radius: 22px;
+	border-radius: 30px;
 	text-decoration: none;
 	margin: 10px 0;
 	transition: all 0.2s ease-in-out;
+	font-size: $default-font-size * 1.2;
+	font-weight: bold;
+	text-transform: uppercase;
 	
 	&:hover {
 		background-color: #212121;
@@ -12,7 +15,13 @@
 }
 
 .btn-cta {
-	border: 2px solid #ffffff;
+	border: 2px solid $secondary-text-color;
+
+	&:hover {
+		border: none;
+		background: $primary-text-color;
+		color: $secondary-text-color;
+	}
 }
 
 .btn-coral {

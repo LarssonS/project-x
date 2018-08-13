@@ -1,10 +1,12 @@
 .hero-image {
-    background-image: url("http://via.placeholder.com/1600x400");
+    background-image: url("../images/hero-image.jpg");
     background-repeat: no-repeat;
-    height: 400px;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 10%;   
 }

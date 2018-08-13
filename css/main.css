@@ -134,9 +134,11 @@ h1 {
   grid-column: 3 / 4; }
 
 .hero-image {
-  background-image: url("http://via.placeholder.com/1600x400");
+  background-image: url("../images/hero-image.jpg");
   background-repeat: no-repeat;
-  height: 400px;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -156,17 +158,21 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: coral;
+  background: #212121;
   position: fixed;
   z-index: 10;
   width: 100%;
   padding: 15px 0; }
   .nav-bar h1 {
     margin: 0;
-    font-weight: normal;
-    text-decoration: underline;
-    text-transform: capitalize;
-    color: #455166; }
+    font-weight: bold;
+    color: #eeeeee;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px; }
+  .nav-bar a {
+    text-decoration: none;
+    color: #eeeeee; }
 
 .nav-bar-flex {
   width: 100%; }
@@ -202,7 +208,7 @@ h1 {
   justify-content: space-around; }
 
 .nav-bar .hamburger-menu .hamburger .bar {
-  background-color: #455166;
+  background-color: #eeeeee;
   width: 100%;
   height: 5px;
   display: block; }
@@ -241,19 +247,26 @@ h1 {
   text-align: center; }
 
 .btn {
-  padding: 13px 48px;
+  padding: 15px 40px;
   color: #ffffff;
-  border-radius: 22px;
+  border-radius: 30px;
   text-decoration: none;
   margin: 10px 0;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.2s ease-in-out;
+  font-size: 19.2px;
+  font-weight: bold;
+  text-transform: uppercase; }
   .btn:hover {
     background-color: #212121; }
 
 .btn-cta {
-  border: 2px solid #ffffff; }
+  border: 2px solid #eeeeee; }
+  .btn-cta:hover {
+    border: none;
+    background: #212121;
+    color: #eeeeee; }
 
 .btn-coral {
   background: lightcoral; }
