@@ -1,0 +1,64 @@
+.recent-works-title {
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.recent-works-button {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.project-text {
+    font-size: $default-font-size * 2;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+
+    &:hover {
+        color: rgb(149, 243, 243);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.image-holder {
+    width: 250px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    box-shadow: 2px 4px 12px -3px rgba(0,0,0,0.4);
+}
+
+.project-1 {
+    background-image: url("../images/project-1.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 3;
+    margin-right: -40px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.project-2 {
+    background-image: url("../images/project-2.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 4;
+    margin-right: -40px;
+}
+
+.project-3 {
+    background-image: url("../images/project-3.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-right: -40px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    z-index: 5;
+}
+
+.project-4 {
+    background-image: url("../images/project-4.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 6;
+}
