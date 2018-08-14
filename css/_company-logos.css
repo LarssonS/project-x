@@ -1,0 +1,18 @@
+.column-fourth {
+  width: calc(100% / 4); }
+
+.comp-1 {
+  background-image: url("../images/comp-1.png");
+  background-size: cover; }
+
+.comp-2 {
+  background-image: url("../images/comp-2.png");
+  background-size: cover; }
+
+.comp-3 {
+  background-image: url("../images/comp-3.png");
+  background-size: cover; }
+
+.comp-4 {
+  background-image: url("../images/comp-4.png");
+  background-size: cover; }
