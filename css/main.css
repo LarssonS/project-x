@@ -23,6 +23,11 @@ h1 {
   -ms-flex-align: center;
   align-items: center; }
 
+.flex-end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
 .flexbox-justify-center {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -420,9 +425,23 @@ h1 {
 .google-maps {
   height: 340px;
   width: 60%;
-  background: pink; }
+  background: grey; }
 
-.contact-us-container {
+.contact-us-container,
+.footer-info-container {
   width: 30%; }
+
+.padding-left-6 {
+  padding-left: 6em; }
+
+footer div h2 {
+  margin-top: 0; }
+
+.footer-image {
+  background-image: url("../images/hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px; }
 
 /*# sourceMappingURL=main.css.map */
