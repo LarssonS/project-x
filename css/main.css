@@ -10,7 +10,7 @@ h1 {
   margin: 0; }
 
 .container {
-  max-width: 960px;
+  width: 80%;
   margin: 0 auto; }
 
 .flexbox {
@@ -191,16 +191,7 @@ h1 {
   font-size: 16px;
   text-transform: uppercase; }
 
-.nav-bar-flex {
-  width: 100%; }
-
-.nav-bar .container {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-
-.nav-bar .hamburger-menu {
+.hamburger-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

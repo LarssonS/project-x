@@ -30,15 +30,7 @@
     text-transform: uppercase;
 }
 
-.nav-bar-flex {
-    width: 100%;
-}
-
-.nav-bar .container {
-    flex-direction: column;
-}
-
-.nav-bar .hamburger-menu {
+.hamburger-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
